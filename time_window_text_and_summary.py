@@ -8,7 +8,7 @@ import json
 
 def search_and_summarize(question, start_date, end_date, num_results_per_domain):
     print(colored("Initializing Exa and OpenAI clients...", 'green'))
-    exa = Exa(os.getenv('EXA_API_KEY'))
+    exa = Exa(os.getenv('METAPHOR_API_KEY'))
     openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     year, month, _ = start_date.split("-")
@@ -69,7 +69,7 @@ def search_and_summarize(question, start_date, end_date, num_results_per_domain)
                             gpt_responses += str(text_chunk)
 
                     url_summaries.append({
-                        "timeframe": f"{month}/{year}",
+                        "timeframe": f"article from {month}/{year}",
                         "url": result.url, 
                         "relevance_score": result.score, 
                         "highlights": result.highlights, 

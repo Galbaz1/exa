@@ -1,0 +1,170 @@
+[
+    {
+        "source": "https://techcrunch.com/2015/01/31/narrow-ai-cant-do-that-or-can-it/",
+        "political_stance": "liberal",
+        "time_frame": "January 2015",
+        "new_summary": "TechCrunch discusses the rise of narrow AI, highlighting its business benefits and the surge in Silicon Valley investments. It contrasts narrow AI with classic AI, emphasizing its practical applications over theoretical dangers.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "optimistic"
+            ]
+        }
+    },
+    {
+        "source": "https://www.nytimes.com/2015/01/11/magazine/death-by-robot.html?referrer=",
+        "political_stance": "liberal",
+        "time_frame": "January 2015",
+        "new_summary": "The New York Times article likely discusses the ethical and societal implications of robotics and AI, reflecting on the responsibilities and potential dangers as technology advances.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "speculative"
+            ]
+        }
+    },
+    {
+        "source": "https://www.foxnews.com/us/citing-costs-ibm-to-move-retirees-off-health-plan.print",
+        "political_stance": "right wing condervative",
+        "time_frame": "January 2015",
+        "new_summary": "Fox News reports on IBM moving 110,000 retirees off its health plan to a private exchange due to rising costs, reflecting on the broader implications for employee benefits and healthcare.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "critical"
+            ]
+        }
+    },
+    {
+        "source": "https://www.wired.com/2015/01/ai-arrived-really-worries-worlds-brightest-minds/",
+        "political_stance": "centre",
+        "time_frame": "January 2015",
+        "new_summary": "Wired discusses the ethical concerns of AI, featuring insights from Elon Musk and Stephen Hawking. It highlights the rapid advancements in AI and the need for ethical considerations in its development.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "https://www.breitbart.com/politics/2015/01/05/deep-learning-gaze-into-the-web-abyss-and-it-gazes-also-into-you/",
+        "political_stance": "right wing condervative",
+        "time_frame": "January 2015",
+        "new_summary": "Breitbart discusses deep learning and AI, focusing on privacy concerns and the potential for surveillance. It reflects on the societal implications and consumer unease with technology's rapid advancement.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "speculative"
+            ]
+        }
+    },
+    {
+        "source": "https://techcrunch.com/2024/01/07/as-ai-becomes-standard-watch-for-these-4-devsecops-trends/",
+        "political_stance": "liberal",
+        "time_frame": "January 2024",
+        "new_summary": "TechCrunch discusses the pivotal role of AI in DevSecOps, highlighting 4 global trends: AI in code testing, IP and privacy threats, AI bias, and increased AI reliance. Emphasizes proactive AI utilization and innovation.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "optimistic"
+            ]
+        }
+    },
+    {
+        "source": "https://www.nytimes.com/2024/01/08/technology/ai-robots-chatbots-2024.html",
+        "political_stance": "centre",
+        "time_frame": "January 2024",
+        "new_summary": "The New York Times outlines AI's rapid advancements in 2024, including AI-powered image generators and chatbots, and their expansion into robotics, highlighting the technology's potential to transform various sectors.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "optimistic"
+            ]
+        }
+    },
+    {
+        "source": "https://www.foxnews.com/us/ways-ai-make-life-easier",
+        "political_stance": "right wing condervative",
+        "time_frame": "January 2024",
+        "new_summary": "Fox News highlights how AI advancements in 2024 will ease daily tasks, from house cleaning to financial planning, emphasizing AI's role in enhancing life quality and efficiency.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "optimistic"
+            ]
+        }
+    },
+    {
+        "source": "https://www.wired.com/story/ai-generated-fake-news-is-coming-to-an-election-near-you/",
+        "political_stance": "liberal",
+        "time_frame": "January 2024",
+        "new_summary": "Wired warns of the rise of AI-generated misinformation in elections, highlighting the difficulty in distinguishing fake from real news and the potential for AI to undermine democracy.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "https://www.breitbart.com/tech/2024/01/19/ai-model-lexi-love-to-make-30000-per-month-due-to-digital-dating-revolution/",
+        "political_stance": "right wing condervative",
+        "time_frame": "January 2024",
+        "new_summary": "Breitbart reports on AI model Lexi Love's success as a digital girlfriend, earning $30,000 a month, and discusses the potential negative impacts on society, including loneliness and declining birth rates.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "techcrunch.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2010",
+        "new_summary": "TechCrunch reports on Roxxxy, a customizable sex robot by True Companion, highlighting its AI capabilities and personalities like 'Frigid Farrah' or 'Mature Martha'. Priced between $7,000-$9,000, it's aimed at being more than just for sex.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "nytimes.com",
+        "political_stance": "centre",
+        "time_frame": "January 2010",
+        "new_summary": "The New York Times commemorates Ray Solomonoff, an AI pioneer, detailing his contributions to machine learning and the founding of artificial intelligence alongside notable scientists.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "inspirational"
+            ]
+        }
+    },
+    {
+        "source": "wired.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2010",
+        "new_summary": "Wired recounts the first recorded human death by robot in 1979, emphasizing the evolution of robotics from industrial accidents to today's versatile applications, and sparking ethical discussions.",
+        "sentiment": {
+            "classifications": [
+                "informative",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "breitbart.com",
+        "political_stance": "right wing condervative",
+        "time_frame": "January 2010",
+        "new_summary": "Breitbart warns of China's growing threat to US security, criticizing the Obama administration's handling of Google's stance on China and urging for a stronger intelligence focus on China.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "controversial"
+            ]
+        }
+    }
+]
