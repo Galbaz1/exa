@@ -27,6 +27,7 @@ def search_and_get_content(question, start_date, end_date, num_results_per_domai
                 use_autoprompt=True,
                 text=True,
                 #highlights={"highlights_per_url": 2, "num_sentences": 3, "query": "These are the highlight queries:"}
+
             )
 
 
@@ -79,7 +80,7 @@ def search_and_get_content(question, start_date, end_date, num_results_per_domai
 
 # Get user input before iterating over time windows
 question = input(colored("What news are you looking for?: ", 'yellow'))
-num_results_per_domain = input(colored("How many results per domain to summarize? ", 'yellow'))
+num_results_per_domain = input(colored("How many results per domain to search for? ", 'yellow'))
 
 try:
     num_results_per_domain = int(num_results_per_domain)
@@ -89,8 +90,8 @@ except ValueError:
 
 # Define the time windows
 time_windows = [
-    ("2010-01-01", "2010-01-31"),
     ("2015-01-01", "2015-01-31"),
+    ("2020-01-01", "2020-01-31"),
     ("2024-01-01", "2024-01-31")
 ]
 

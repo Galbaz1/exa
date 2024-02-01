@@ -9,12 +9,11 @@ from enum import Enum
 client = instructor.patch(OpenAI(), mode=instructor.function_calls.Mode.JSON)
 
 class SentimentAnalysis(str, Enum):
-    POSITIVE = "positive"
+    """posible sentiment types for the article"""
     CRITICAL = "critical"
     NEUTRAL = "neutral"
-    INFORMATIVE = "informative"
+    TECHNICAL = "technical"
     CONTROVERSIAL = "controversial"
-    INSPIRATIONAL = "inspirational"
     PESSIMISTIC = "pessimistic"
     OPTIMISTIC = "optimistic"
     SPECULATIVE = "speculative"
@@ -28,43 +27,39 @@ class SentimentClassification(BaseModel):
 
     Here are some guidelines to predict the sentiment:
 
-    POSITIVE: "The article has a positive tone, maybe highlighting achievements, progress, or praise."
     CRITICAL: "The article criticizes or questions the subject, pointing out flaws or challenges."
     NEUTRAL: "The article remains unbiased and doesn't lean towards a positive or negative judgment."
-    INFORMATIVE: "The article only focuses on providing factual information or insights adressed at a technical audience."
+    TECHNICAL: "The article is highly technical, using jargon or specialized language aimed at a informed audience."
     CONTROVERSIAL: "The article addresses a divisive topic or presents a polarizing viewpoint."
-    INSPIRATIONAL: "The article aims to inspire, motivate, or uplift the reader."
     PESSIMISTIC: "The article has a negative or gloomy tone, focusing on the downsides."
     OPTIMISTIC: "The article expresses hope, positivity, or a forward-looking perspective."
     SPECULATIVE: "The article discusses hypotheses, theories, or future possibilities."
     OTHER: "The article's sentiment does not fit into the standard categories."
     """
 
-    classifications: List[SentimentAnalysis] = Field(
-        description=f"An accuracy and correct prediction predicted sentiment of the article. Only allowed types: {ALLOWED_TYPES}, should be used",
+    classification: SentimentAnalysis = Field(
+        description=f"An accuracy and correct prediction predicted dominating sentiments of the article. Only allowed types: {ALLOWED_TYPES}, should be used",
     )
 
-    @field_validator("classifications", mode="before")
-    def validate_classifications(cls, v):
-        # sometimes the API returns a single value, just make sure it's a list
-        if not isinstance(v, list):
-            v = [v]
-        return v
+    # @field_validator("classification", mode="before")
+    # def validate_classification(cls, v):
+    #     # sometimes the API returns a single value, just make sure it's a list
+    #     if not isinstance(v, list):
+    #         v = [v]
+    #     return v
 
 class Article(BaseModel):
-    """Extract the article contents from the data"""
+    """Infer from the source data. Incase present literally in the data, but needs to be inferred from the data."""
 
-    source: str = Field(..., description="The source of the article", example="techcrunch.com")
+    source: Optional[str] = Field(default=None, description="The source of the article", example="techcrunch.com")
 
-    chain_of_thought: str = Field(
-    description="Reasoning behind the political stance of the media outlet that published the article. This is a very important field and should be filled out with the utmost care. It should be based on the media outlet known political stance",
-    exclude=True)
+    chain_of_thought: Optional[str] = Field(default=None, description="Reasoning behind the political stance of the media outlet that published the article. This is a very important field and should be filled out with the utmost care. It should be based on the media outlet known political stance", exclude=True)
 
-    political_stance: Literal["left wing progressive", "liberal", "centre", "right wing condervative"] 
+    political_stance: Optional[Literal["left wing progressive", "liberal", "centre", "right wing conservative"]] = Field(default=None, description="The political stance of the media outlet")
 
     time_frame: str = Field(..., description="The month and year the article was published", example="January 2022")
     new_summary: str = Field(..., description="New more consice and entity dense summary of the article in max 300 characters", max_length=300)
-    sentiment: SentimentClassification = Field(..., description="The sentiment of the article")
+    sentiment: Optional[SentimentClassification] = Field(default=None, description="The sentiment of the article")
     
    
 Articles = Iterable[Article]
@@ -90,9 +85,8 @@ for filename in os.listdir(directory_path):
         # Process the current file's data
         articles = client.chat.completions.create(
             model="gpt-4-0125-preview",
-            temperature=0,
-            stream=True,
-            response_model=Articles,
+            temperature=0.5,
+            response_model=Article,
             messages=[
                 {
                     "role": "system",
@@ -107,7 +101,6 @@ for filename in os.listdir(directory_path):
                     ),
                 },
             ],
-            max_tokens=4000,
         )
 
         print("Data processed. Extracting articles...")
