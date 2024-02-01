@@ -1,0 +1,334 @@
+[
+    {
+        "source": "https://techcrunch.com/2015/01/31/silicon-valley-reinvents-the-invisible-hand/",
+        "political_stance": "liberal",
+        "time_frame": "January 2015",
+        "new_summary": "TechCrunch article explores how technology, especially startups, is transforming labor markets by reducing friction and advocating for 'thick' labor markets for better efficiency.",
+        "sentiment": {
+            "classifications": [
+                "optimistic"
+            ]
+        }
+    },
+    {
+        "source": "https://techcrunch.com/2015/01/31/narrow-ai-cant-do-that-or-can-it/",
+        "political_stance": "liberal",
+        "time_frame": "January 2015",
+        "new_summary": "TechCrunch discusses the potential of narrow AI in solving specific problems, contrasting it with the broader fears associated with general AI.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "technical"
+            ]
+        }
+    },
+    {
+        "source": "https://www.nytimes.com/2015/01/29/technology/personaltech/uber-a-rising-business-model.html?ref=business",
+        "political_stance": "centre",
+        "time_frame": "January 2015",
+        "new_summary": "NYTimes analyzes Uber's influence on work structures, highlighting its role in the gig economy and the challenges it poses to traditional employment.",
+        "sentiment": {
+            "classifications": [
+                "controversial",
+                "speculative"
+            ]
+        }
+    },
+    {
+        "source": "https://www.wired.com/2015/01/ai-arrived-really-worries-worlds-brightest-minds/",
+        "political_stance": "liberal",
+        "time_frame": "January 2015",
+        "new_summary": "Wired article discusses concerns of leading minds about AI's future, emphasizing ethical considerations and potential risks.",
+        "sentiment": {
+            "classifications": [
+                "controversial",
+                "speculative"
+            ]
+        }
+    },
+    {
+        "source": "https://www.breitbart.com/politics/2015/01/05/deep-learning-gaze-into-the-web-abyss-and-it-gazes-also-into-you/",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2015",
+        "new_summary": "Breitbart article on deep learning highlights potential privacy concerns and the growing power of tech companies, suggesting caution.",
+        "sentiment": {
+            "classifications": [
+                "controversial",
+                "pessimistic"
+            ]
+        }
+    },
+    {
+        "source": "https://www.breitbart.com/europe/2015/01/21/civil-war-brewing-for-the-cultural-left/",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2015",
+        "new_summary": "Breitbart article critiques internal conflicts within the cultural left, highlighting divisions and perceived hypocrisies from a conservative perspective.",
+        "sentiment": {
+            "classifications": [
+                "critical"
+            ]
+        }
+    },
+    {
+        "source": "https://www.breitbart.com/europe/2015/01/02/how-feminist-propaganda-is-destroying-mens-lives/",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2015",
+        "new_summary": "Breitbart article criticizes feminist movements, claiming they negatively impact men's lives and society, from a conservative viewpoint.",
+        "sentiment": {
+            "classifications": [
+                "critical"
+            ]
+        }
+    },
+    {
+        "source": "techcrunch.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2024",
+        "new_summary": "AI's role in layoffs is complex, influencing efficiency but also job cuts in tech firms like Salesforce & SAP, amid economic uncertainty.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "technical"
+            ]
+        }
+    },
+    {
+        "source": "techcrunch.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2024",
+        "new_summary": "MIT study suggests AI's job displacement impact may be slower and less economically beneficial to automate than anticipated.",
+        "sentiment": {
+            "classifications": [
+                "technical",
+                "optimistic"
+            ]
+        }
+    },
+    {
+        "source": "techcrunch.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2024",
+        "new_summary": "AI's integration into work and life challenges traditional roles, urging a reevaluation of what tasks AI should take over.",
+        "sentiment": {
+            "classifications": [
+                "controversial",
+                "speculative"
+            ]
+        }
+    },
+    {
+        "source": "nytimes.com",
+        "political_stance": "centre",
+        "time_frame": "January 2024",
+        "new_summary": "AI's potential to outperform humans in all tasks by 2047 raises questions about job futures and the direction of AI development.",
+        "sentiment": {
+            "classifications": [
+                "speculative",
+                "critical"
+            ]
+        }
+    },
+    {
+        "source": "nytimes.com",
+        "political_stance": "centre",
+        "time_frame": "January 2024",
+        "new_summary": "2024 marks a leap for AI, with advancements in chatbots and AI integration into the physical world, reshaping human-computer interactions.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "technical"
+            ]
+        }
+    },
+    {
+        "source": "nytimes.com",
+        "political_stance": "centre",
+        "time_frame": "January 2024",
+        "new_summary": "Silicon Valley's embrace of AI raises concerns over economic disparity and the need for a balanced approach to AI's societal impacts.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "foxnews.com",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2024",
+        "new_summary": "AI's advancements offer practical benefits, from aiding in household chores to financial planning, showcasing its versatility.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "technical"
+            ]
+        }
+    },
+    {
+        "source": "foxnews.com",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2024",
+        "new_summary": "North Korea's AI advancements in military and nuclear sectors pose international security risks and potential sanctions violations.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "foxnews.com",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2024",
+        "new_summary": "Speaker Johnson's discussions with OpenAI CEO highlight Congress's role in regulating AI's potential and risks.",
+        "sentiment": {
+            "classifications": [
+                "speculative",
+                "other"
+            ]
+        }
+    },
+    {
+        "source": "wired.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2024",
+        "new_summary": "AI reshapes work, emphasizing a skills-first approach and collaboration between humans and AI, fostering innovation and efficiency.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "technical"
+            ]
+        }
+    },
+    {
+        "source": "wired.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2024",
+        "new_summary": "The integration of AI and liberal arts education fosters creativity and ethical considerations in technology development.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "speculative"
+            ]
+        }
+    },
+    {
+        "source": "wired.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2024",
+        "new_summary": "AI's role in creativity and design emphasizes multidisciplinary approaches and ethical technology use, driving future innovation.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "technical"
+            ]
+        }
+    },
+    {
+        "source": "breitbart.com",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2024",
+        "new_summary": "AI model Lexi Love's popularity raises concerns over societal impacts, including decreased human interaction and birth rates.",
+        "sentiment": {
+            "classifications": [
+                "controversial",
+                "pessimistic"
+            ]
+        }
+    },
+    {
+        "source": "breitbart.com",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2024",
+        "new_summary": "George Carlin's estate sues over an AI-generated comedy special, highlighting issues of copyright and the misuse of AI.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "breitbart.com",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2024",
+        "new_summary": "Neuralink's first human brain implant stirs debate over ethical implications and safety, amid concerns over animal testing.",
+        "sentiment": {
+            "classifications": [
+                "critical",
+                "controversial"
+            ]
+        }
+    },
+    {
+        "source": "techcrunch.com",
+        "political_stance": "left wing progressive",
+        "time_frame": "January 2020",
+        "new_summary": "TechCrunch discusses Ted Chiang's 'Exhalation', exploring existence, climate change, and community through cybernetic beings reliant on air, reflecting on our climate crisis and the essence of life.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "critical"
+            ]
+        }
+    },
+    {
+        "source": "techcrunch.com",
+        "political_stance": "liberal",
+        "time_frame": "January 2020",
+        "new_summary": "TechCrunch article examines how technology impacts social norms, using examples like Airbnb, Uber, and the iPhone to illustrate the unpredictable nature of technological adoption and societal change.",
+        "sentiment": {
+            "classifications": [
+                "speculative",
+                "optimistic"
+            ]
+        }
+    },
+    {
+        "source": "techcrunch.com",
+        "political_stance": "left wing progressive",
+        "time_frame": "January 2020",
+        "new_summary": "TechCrunch discusses deep tech VCs and startups focusing on AI, synthetic biology, and quantum computing to address climate change, highlighting the potential for technology to solve critical global issues.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "technical"
+            ]
+        }
+    },
+    {
+        "source": "nytimes.com",
+        "political_stance": "centre",
+        "time_frame": "January 2020",
+        "new_summary": "NYT offers a subscription for digital access, excluding games, cooking, Wirecutter, or The Athletic, aiming to enhance reader engagement with diverse content.",
+        "sentiment": {
+            "classifications": [
+                "other"
+            ]
+        }
+    },
+    {
+        "source": "foxnews.com",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2020",
+        "new_summary": "Fox News explores AI advancements in military applications, highlighting the potential for AI to revolutionize combat and decision-making, while emphasizing the need for human oversight.",
+        "sentiment": {
+            "classifications": [
+                "technical",
+                "critical"
+            ]
+        }
+    },
+    {
+        "source": "breitbart.com",
+        "political_stance": "right wing conservative",
+        "time_frame": "January 2020",
+        "new_summary": "Breitbart reports on AI's role in early warnings of China's coronavirus, highlighting tech's potential in global health monitoring while implicitly cautioning about reliance on technology and data privacy.",
+        "sentiment": {
+            "classifications": [
+                "optimistic",
+                "critical"
+            ]
+        }
+    }
+]
